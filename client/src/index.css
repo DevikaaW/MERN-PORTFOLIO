@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+i{
+    cursor: pointer;
+}
+i:hover{
+    color:white;
+}
+.d{
+    animation: d 2s infinite ;
+}
+@keyframes d {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+.m{
+    animation: m 2s infinite ;
+}
+@keyframes m {
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+.w{
+    animation: w 2s infinite ;
+}
+@keyframes w {
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
