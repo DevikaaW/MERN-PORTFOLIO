@@ -15,7 +15,7 @@ function App() {
   const dispatch = useDispatch();
   const getPortfolioData = useCallback(async () => {
     try {
-        const response = await axios.get('http://localhost:5001/api/portfolio/get-portfolio-data');
+        const response = await axios.get('https://mern-portfolio-oaxz.onrender.com/api/portfolio/get-portfolio-data');
         dispatch(SetPortfolioData(response.data));
         console.log(response.data);
     } catch (error) {
